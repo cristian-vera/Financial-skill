@@ -1,0 +1,613 @@
+@media only screen and (min-width:1037px) and (max-width:1168px){
+    .homepage__hero {
+        h1 {
+            font-size: 3em;
+        }
+    }
+
+    .footer__redesSociales {
+        display: flex;
+        flex-direction: column;
+        padding-left: 6em;
+        ul {
+            li {
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:1021px) and (max-width:1036px){
+    .homepage__hero {
+        h1 {
+            font-size: 3em;
+        }
+    }
+
+    .footer__redesSociales {
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        padding-left: 5em;
+        ul {
+            li {
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:690px) and (max-width:840px){
+    .header__logo {
+        img {
+            width:110px;
+            height:110px;
+        }
+    }
+
+    .header__nav {
+        ul {
+            word-spacing: 0.5em;
+            li {
+                a {
+                    font-size: 1.3em;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:533px) and (max-width:689px){
+    .header__logo {
+        img {
+            width:80px;
+            height:80px;
+        }
+    }
+
+    .header__nav {
+        ul {
+            word-spacing: 0.2em;
+            li {
+                a {
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:532px){
+    .header__logo {
+        img {
+            width:80px;
+            height:80px;
+        }
+    }
+
+    .header__nav {
+        ul {
+            word-spacing: 0.2em;
+            li {
+                a {
+                    font-size: 0.8em;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:625px) and (max-width:1020px){
+    .homepage__hero {
+        h1 {
+            font-size: 2em;
+        }
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:624px){
+    .homepage__hero {
+        h1 {
+            font-size: 1.5em;
+        }
+    }
+}
+
+@media only screen and (min-width:774px) and (max-width:1020px){
+    .homepage__servicios {
+        img {
+            width: 450px;
+            height: 300px;
+            margin-bottom: -5px;
+        }
+        h2 {
+            font-size: 1.5em;
+        }
+        p {
+            font-family: "Poppins", sans-serif;
+            font-size: 1.5em;
+            font-weight:600;
+        }
+        button {
+            a {
+                font-size: 1em;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:579px) and (max-width:773px){
+    .homepage__servicios {
+        img {
+            width: 300px;
+            height: 250px;
+            margin-bottom: -5px;
+        }
+        h2 {
+            font-size: 1.2em;
+        }
+        p {
+            font-family: "Poppins", sans-serif;
+            font-size: 1.2em;
+            font-weight:600;
+        }
+        button {
+            a {
+                font-size: 1em;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:479px) and (max-width:578px){
+    .homepage__servicios {
+        img {
+            width: 250px;
+            height: 225px;
+            margin-bottom: -5px;
+        }
+        h2 {
+            font-size: 1em;
+        }
+        p {
+            font-family: "Poppins", sans-serif;
+            font-size: 1em;
+            font-weight:600;
+        }
+        button {
+            a {
+                font-size: 0.7em;
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width:894px) and (max-width:1020px){
+    .footer__texto {
+        padding-right: 4em;
+    }
+
+    .footer__menuSecundario {
+        ul {
+            list-style: none;
+            padding-right: 6em;
+            padding-left: 3em;
+            li {
+                a {
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: #ffffff;
+                    font-family:"Poppins", sans-serif;
+                    font-size: 1.3em;
+                    line-height: 1.5em;
+                }
+            }
+        }
+    }
+
+    .footer__redesSociales {
+        display: flex;
+        flex-direction: column;
+        justify-content:stretch;
+        padding-left: 2em;
+        ul {
+            li {
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:795px) and (max-width:893px){
+    .footer__menuSecundario {
+        ul {
+            list-style: none;
+            padding-right: 6em;
+            padding-left: 3em;
+            li {
+                a {
+                    font-size: 1em;
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+
+    .footer__redesSociales {
+        display: flex;
+        flex-direction: column;
+        justify-content:stretch;
+        padding-left: 2em;
+        p {
+            font-size: 1em;
+            font-weight: bolder;
+        }
+        ul {
+            li {
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:763px) and (max-width:794px){
+    .footer__texto {
+        padding-right: 4em;
+        font-size: 1em;
+        font-weight: bolder;
+    }
+
+    .footer__menuSecundario {
+        ul {
+            list-style: none;
+            padding-right: 4em;
+            padding-left: 3em;
+            li {
+                a {
+                    font-size: 1em;
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+
+    .footer__redesSociales {
+        display: flex;
+        flex-direction: column;
+        justify-content:stretch;
+        padding-left: 2em;
+        p {
+            font-size: 1em;
+            font-weight: bolder;
+        }
+        ul {
+            li {
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:619px) and (max-width:762px){
+    .footer__texto {
+        padding-right: 1em;
+        font-size: 1em;
+        font-weight: bolder;
+    }
+
+    .footer__menuSecundario {
+        ul {
+            list-style: none;
+            padding-right: 1em;
+            padding-left: 1em;
+            li {
+                a {
+                    font-size: 1em;
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+
+    .footer__redesSociales {
+        display: flex;
+        flex-direction: column;
+        justify-content:stretch;
+        padding-left: 1em;
+        p {
+            font-size: 1em;
+            font-weight: bolder;
+        }
+        ul {
+            li {
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:618px){
+    .nosotros__main {
+        p {
+            font-size: 1.1em;
+            text-align: left;
+        }
+        img {
+            padding-right: 1em;
+            width: 200px;
+            height: 175px;
+        }
+    }
+
+    .nosotros__text {
+        margin-right: 2em;
+        width: 80%;
+    }
+
+    .contacto__formulario {
+        width: 450px;
+    }
+
+    .contacto__mapa {
+        iframe {
+            width: 300px;
+            height: 250px;
+        }
+    }
+
+    .footer__subcontenido {
+        display: flex;
+        padding-left: 2.5em;
+    }
+
+    .footer__texto {
+        padding-right: 0.5em;
+        font-size: 0.8em;
+        font-weight: bolder;
+    }
+
+    .footer__menuSecundario {
+        ul {
+            list-style: none;
+            padding-right: 1em;
+            padding-left: 1em;
+            li {
+                a {
+                    font-size: 0.8em;
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+
+    .footer__redesSociales {
+        display: flex;
+        flex-direction: column;
+        justify-content:stretch;
+        padding-left: 1em;
+        p {
+            font-size: 0.8em;
+            font-weight: bolder;
+        }
+        ul {
+            li {
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:350px) and (max-width:479px){
+    .header__logo {
+        img {
+            width:80px;
+            height:80px;
+        }
+    }
+
+    .header__nav {
+        ul {
+            word-spacing: 0.2em;
+            z-index: 1;
+            li {
+                a {
+                    font-size: 0.8em;
+                    ul {
+                        li {
+                            z-index: 0;
+                            padding: 0.1em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .homepage__hero {
+        h1 {
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+            font-size: 1em;
+        }
+    }
+
+    .homepage__servicios {
+        img {
+            width: 100%;
+            height: 200px;
+            margin-bottom: -5px;
+        }
+        h2 {
+            font-size: 1em;
+        }
+        p {
+            font-family: "Poppins", sans-serif;
+            font-size: 1em;
+            font-weight:600;
+        }
+        button {
+            margin-top: 0.2em;
+            a {
+                font-size: 0.7em;
+            }
+        }
+    }
+
+    .homepage__serviciosTexto {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        padding-left: 1em;
+    }
+
+    .homepage__card1, .homepage__card2  {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .servicios__finanzasPersonales, .servicios__desarrolloPersonal {
+        h2 {
+            font-size: 1.2em;
+            margin-bottom: 0.3em;
+        }
+        img {
+            width: 100%;
+            height: 200px;
+        }
+        p {
+            text-align: left;
+            font-size: 1em;
+            font-weight:500;
+        }
+    }
+
+    .nosotros__main {
+        padding-bottom: 0.5em;
+        h2 {
+            font-size: 1.4em;
+        }
+        p {
+            font-size: 1em;
+            text-align: left;
+            padding-bottom: 0.5em;
+        }
+        img {
+            padding-right: 0.3em;
+            width: 150px;
+            height: 125px;
+        }
+    }
+
+    .nosotros__text {
+        margin-right: 0.5em;
+        width: 80%;
+    }
+
+    .contacto__info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacto__subInfo {
+        margin-right: 0.5em;
+        h3 {
+            font-family: "Poppins", sans-serif;
+            font-size: 1.1em;
+            line-height: 1.3em;
+        }
+        p {
+            font-family: "Poppins", sans-serif;
+            font-size: 1.1em;
+            text-align: left;
+            margin-bottom: 0.5em;
+            text-align: left;
+        }
+    }
+
+    .contacto__mapa {
+        iframe {
+            width: 90%;
+            height: 225px;
+        }
+    }
+
+    .contacto__formulario {
+        width: 100%;
+        textarea {
+            width: 100%;
+        }
+    }
+
+    .footer__subcontenido {
+        display: flex;
+        padding-left: 1em;
+    }
+
+    .footer__logo {
+        img {
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+    .footer__texto {
+        padding-right: 0.2em;
+        font-size: 0.8em;
+        font-weight: bolder;
+    }
+
+    .footer__menuSecundario {
+        ul {
+            list-style: none;
+            padding-right: 0.2em;
+            padding-left: 0.3em;
+            li {
+                a {
+                    font-size: 0.7em;
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+
+    .footer__redesSociales {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content:stretch;
+        padding-left: 0.5em;
+        p {
+            font-size: 0.8em;
+            font-weight: bolder;
+        }
+        ul {
+            li {
+                img {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+    }
+}

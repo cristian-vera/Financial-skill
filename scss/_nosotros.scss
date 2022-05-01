@@ -1,0 +1,27 @@
+.nosotros__main {
+    display: flex;
+    background-color: #04e0f0;
+    padding: 1.5em;
+    h2 {
+        font-family: "Poppins", sans-serif;
+        font-size: 1.7em;
+        letter-spacing: 0.2em;
+        text-decoration: underline;
+    }
+    p {
+        font-family: "Poppins", sans-serif;
+        font-size: 1.3em;
+        text-align: justify;
+        padding-bottom: 1.2em;
+    }
+    img {
+        padding-right: 2em;
+        width: 250px;
+        height: 200px;
+    }
+}
+
+.nosotros__text {
+    margin-right: 5em;
+    width: 70%;
+}

@@ -1,0 +1,67 @@
+.homepage__hero {
+    background-color: #000000;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    h1 {
+        color: #ffffff;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-size: 3.5em;
+        letter-spacing: 0.2em;
+        margin: 0;
+    }
+}
+
+.homepage__servicios {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #04e0f0;
+    img {
+        width: 550px;
+        height: 300px;
+        margin-bottom: -5px;
+    }
+    h2 {
+        font-family: "Poppins", sans-serif;
+        font-size: 1.7em;
+        letter-spacing: 0.2em;
+    }
+    p {
+        font-family: "Poppins", sans-serif;
+        font-size: 1.8em;
+        font-weight:600;
+    }
+    button {
+        background-color:#000000;
+        border-radius: 0.7em;
+        padding: 0.5em;
+        margin-top: 0.5em;
+        a {
+            font-family: "Poppins", sans-serif;
+            font-weight: bolder;
+            font-size: 1.2em;
+            text-decoration: none;
+            color:#ffffff;
+        }
+    }
+}
+
+.homepage__serviciosTexto {
+    padding-left: 1.5em;
+}
+
+.homepage__card1, .homepage__card2  {
+    display: flex;
+    background-color: #f5f5dc;
+    border-style: solid;
+}
+
+.homepage__card1 {
+    margin-bottom: 0.75em;
+}
+
+.homepage__card2 {
+    margin-top: 0.75em;
+}

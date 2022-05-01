@@ -1,0 +1,660 @@
+.header {
+  background-color: #f5f5dc;
+  margin: 0;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0; }
+
+.header__contenido {
+  display: flex;
+  justify-content: space-between; }
+
+.header__logo img {
+  width: 130px;
+  height: 130px; }
+
+.header__nav {
+  display: flex;
+  flex-direction: column-reverse; }
+  .header__nav ul {
+    list-style: none;
+    text-align: right;
+    word-spacing: 1em; }
+    .header__nav ul li:hover ul {
+      display: block; }
+    .header__nav ul li {
+      display: inline-block;
+      position: relative; }
+      .header__nav ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #000000;
+        font-family: "Poppins", sans-serif;
+        font-size: 1.6em;
+        letter-spacing: 0.1em;
+        font-weight: 600; }
+        .header__nav ul li a:hover {
+          color: #ff0000; }
+      .header__nav ul li ul {
+        position: absolute;
+        display: none;
+        background-color: #f5f5dc;
+        padding: 0.5em;
+        border-left: #000000 solid;
+        border-right: #000000 solid;
+        border-bottom: #000000 solid; }
+        .header__nav ul li ul li {
+          display: block;
+          text-align: left;
+          padding: 0.2em; }
+
+.footer {
+  background-color: #000000;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 1em; }
+
+.footer__contenido {
+  display: flex; }
+
+.footer__subcontenido {
+  display: flex;
+  padding-left: 4em;
+  padding-top: 1.5em; }
+
+.footer__logo img {
+  width: 90px;
+  height: 90px; }
+
+.footer__texto {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  padding-right: 6em; }
+
+.footer__menuSecundario ul {
+  list-style: none;
+  padding-right: 7em;
+  padding-left: 4em; }
+  .footer__menuSecundario ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em; }
+
+.footer__redesSociales {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 8em; }
+  .footer__redesSociales p {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em; }
+  .footer__redesSociales ul {
+    list-style: none; }
+    .footer__redesSociales ul li {
+      display: inline-block; }
+      .footer__redesSociales ul li img {
+        width: 40px;
+        height: 40px; }
+
+.footer__copyright {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8em;
+  padding-top: 2.5em; }
+
+.hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  position: absolute; }
+
+.homepage__hero {
+  background-color: #000000;
+  padding-left: 1.5em;
+  padding-right: 1.5em; }
+  .homepage__hero h1 {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 3.5em;
+    letter-spacing: 0.2em;
+    margin: 0; }
+
+.homepage__servicios {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #04e0f0; }
+  .homepage__servicios img {
+    width: 550px;
+    height: 300px;
+    margin-bottom: -5px; }
+  .homepage__servicios h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.7em;
+    letter-spacing: 0.2em; }
+  .homepage__servicios p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.8em;
+    font-weight: 600; }
+  .homepage__servicios button {
+    background-color: #000000;
+    border-radius: 0.7em;
+    padding: 0.5em;
+    margin-top: 0.5em; }
+    .homepage__servicios button a {
+      font-family: "Poppins", sans-serif;
+      font-weight: bolder;
+      font-size: 1.2em;
+      text-decoration: none;
+      color: #ffffff; }
+
+.homepage__serviciosTexto {
+  padding-left: 1.5em; }
+
+.homepage__card1, .homepage__card2 {
+  display: flex;
+  background-color: #f5f5dc;
+  border-style: solid; }
+
+.homepage__card1 {
+  margin-bottom: 0.75em; }
+
+.homepage__card2 {
+  margin-top: 0.75em; }
+
+.servicios {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #04e0f0; }
+
+.servicios__main {
+  background-color: #f5f5dc;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1.5em; }
+
+.servicios__finanzasPersonales {
+  margin-bottom: 0.5em; }
+  .servicios__finanzasPersonales h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.7em;
+    letter-spacing: 0.2em;
+    text-decoration: underline; }
+  .servicios__finanzasPersonales img {
+    width: 400px;
+    height: 200px; }
+  .servicios__finanzasPersonales p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3em;
+    text-align: justify; }
+  .servicios__finanzasPersonales h3 {
+    margin-top: 0.3em;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3em;
+    line-height: 1.7em; }
+  .servicios__finanzasPersonales ul li {
+    list-style: none; }
+
+.servicios__desarrolloPersonal h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.7em;
+  letter-spacing: 0.2em;
+  text-decoration: underline; }
+
+.servicios__desarrolloPersonal img {
+  width: 400px;
+  height: 200px; }
+
+.servicios__desarrolloPersonal p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3em;
+  text-align: justify;
+  margin-top: 0.4em;
+  margin-bottom: 0.4em; }
+
+.nosotros__main {
+  display: flex;
+  background-color: #04e0f0;
+  padding: 1.5em; }
+  .nosotros__main h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.7em;
+    letter-spacing: 0.2em;
+    text-decoration: underline; }
+  .nosotros__main p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3em;
+    text-align: justify;
+    padding-bottom: 1.2em; }
+  .nosotros__main img {
+    padding-right: 2em;
+    width: 250px;
+    height: 200px; }
+
+.nosotros__text {
+  margin-right: 5em;
+  width: 70%; }
+
+.contacto__main {
+  background-color: #04e0fe;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1.5em; }
+  .contacto__main h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.7em;
+    letter-spacing: 0.2em;
+    text-decoration: underline; }
+
+.contacto__info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "contacto__subInfo contacto__mapa"; }
+
+.contacto__subInfo {
+  margin-right: 0.5em; }
+  .contacto__subInfo h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4em;
+    line-height: 1.7em; }
+  .contacto__subInfo p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4em;
+    text-align: justify;
+    margin-bottom: 0.5em;
+    text-align: left; }
+
+.contacto__formulario {
+  background-color: #000000;
+  font-family: "Poppins";
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-top: 1em;
+  width: 500px; }
+  .contacto__formulario fieldset {
+    border-style: none; }
+    .contacto__formulario fieldset legend {
+      color: #f0f8ff;
+      font-weight: bolder;
+      letter-spacing: 0.1em; }
+    .contacto__formulario fieldset div {
+      margin-bottom: 0.8em; }
+    .contacto__formulario fieldset button {
+      width: 100px;
+      font-weight: bolder;
+      padding-top: 0.2em;
+      padding-bottom: 0.2em;
+      margin-right: 0.3em; }
+
+.contacto__mapa h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4em;
+  line-height: 1.7em; }
+
+@media only screen and (min-width: 1037px) and (max-width: 1168px) {
+  .homepage__hero h1 {
+    font-size: 3em; }
+  .footer__redesSociales {
+    display: flex;
+    flex-direction: column;
+    padding-left: 6em; }
+    .footer__redesSociales ul li img {
+      width: 30px;
+      height: 30px; } }
+
+@media only screen and (min-width: 1021px) and (max-width: 1036px) {
+  .homepage__hero h1 {
+    font-size: 3em; }
+  .footer__redesSociales {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    padding-left: 5em; }
+    .footer__redesSociales ul li img {
+      width: 30px;
+      height: 30px; } }
+
+@media only screen and (min-width: 690px) and (max-width: 840px) {
+  .header__logo img {
+    width: 110px;
+    height: 110px; }
+  .header__nav ul {
+    word-spacing: 0.5em; }
+    .header__nav ul li a {
+      font-size: 1.3em; } }
+
+@media only screen and (min-width: 533px) and (max-width: 689px) {
+  .header__logo img {
+    width: 80px;
+    height: 80px; }
+  .header__nav ul {
+    word-spacing: 0.2em; }
+    .header__nav ul li a {
+      font-size: 1em; } }
+
+@media only screen and (min-width: 480px) and (max-width: 532px) {
+  .header__logo img {
+    width: 80px;
+    height: 80px; }
+  .header__nav ul {
+    word-spacing: 0.2em; }
+    .header__nav ul li a {
+      font-size: 0.8em; } }
+
+@media only screen and (min-width: 625px) and (max-width: 1020px) {
+  .homepage__hero h1 {
+    font-size: 2em; } }
+
+@media only screen and (min-width: 480px) and (max-width: 624px) {
+  .homepage__hero h1 {
+    font-size: 1.5em; } }
+
+@media only screen and (min-width: 774px) and (max-width: 1020px) {
+  .homepage__servicios img {
+    width: 450px;
+    height: 300px;
+    margin-bottom: -5px; }
+  .homepage__servicios h2 {
+    font-size: 1.5em; }
+  .homepage__servicios p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5em;
+    font-weight: 600; }
+  .homepage__servicios button a {
+    font-size: 1em; } }
+
+@media only screen and (min-width: 579px) and (max-width: 773px) {
+  .homepage__servicios img {
+    width: 300px;
+    height: 250px;
+    margin-bottom: -5px; }
+  .homepage__servicios h2 {
+    font-size: 1.2em; }
+  .homepage__servicios p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2em;
+    font-weight: 600; }
+  .homepage__servicios button a {
+    font-size: 1em; } }
+
+@media only screen and (min-width: 479px) and (max-width: 578px) {
+  .homepage__servicios img {
+    width: 250px;
+    height: 225px;
+    margin-bottom: -5px; }
+  .homepage__servicios h2 {
+    font-size: 1em; }
+  .homepage__servicios p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1em;
+    font-weight: 600; }
+  .homepage__servicios button a {
+    font-size: 0.7em; } }
+
+@media only screen and (min-width: 894px) and (max-width: 1020px) {
+  .footer__texto {
+    padding-right: 4em; }
+  .footer__menuSecundario ul {
+    list-style: none;
+    padding-right: 6em;
+    padding-left: 3em; }
+    .footer__menuSecundario ul li a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #ffffff;
+      font-family: "Poppins", sans-serif;
+      font-size: 1.3em;
+      line-height: 1.5em; }
+  .footer__redesSociales {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    padding-left: 2em; }
+    .footer__redesSociales ul li img {
+      width: 30px;
+      height: 30px; } }
+
+@media only screen and (min-width: 795px) and (max-width: 893px) {
+  .footer__menuSecundario ul {
+    list-style: none;
+    padding-right: 6em;
+    padding-left: 3em; }
+    .footer__menuSecundario ul li a {
+      font-size: 1em;
+      font-weight: bolder; }
+  .footer__redesSociales {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    padding-left: 2em; }
+    .footer__redesSociales p {
+      font-size: 1em;
+      font-weight: bolder; }
+    .footer__redesSociales ul li img {
+      width: 30px;
+      height: 30px; } }
+
+@media only screen and (min-width: 763px) and (max-width: 794px) {
+  .footer__texto {
+    padding-right: 4em;
+    font-size: 1em;
+    font-weight: bolder; }
+  .footer__menuSecundario ul {
+    list-style: none;
+    padding-right: 4em;
+    padding-left: 3em; }
+    .footer__menuSecundario ul li a {
+      font-size: 1em;
+      font-weight: bolder; }
+  .footer__redesSociales {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    padding-left: 2em; }
+    .footer__redesSociales p {
+      font-size: 1em;
+      font-weight: bolder; }
+    .footer__redesSociales ul li img {
+      width: 30px;
+      height: 30px; } }
+
+@media only screen and (min-width: 619px) and (max-width: 762px) {
+  .footer__texto {
+    padding-right: 1em;
+    font-size: 1em;
+    font-weight: bolder; }
+  .footer__menuSecundario ul {
+    list-style: none;
+    padding-right: 1em;
+    padding-left: 1em; }
+    .footer__menuSecundario ul li a {
+      font-size: 1em;
+      font-weight: bolder; }
+  .footer__redesSociales {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    padding-left: 1em; }
+    .footer__redesSociales p {
+      font-size: 1em;
+      font-weight: bolder; }
+    .footer__redesSociales ul li img {
+      width: 30px;
+      height: 30px; } }
+
+@media only screen and (min-width: 480px) and (max-width: 618px) {
+  .nosotros__main p {
+    font-size: 1.1em;
+    text-align: left; }
+  .nosotros__main img {
+    padding-right: 1em;
+    width: 200px;
+    height: 175px; }
+  .nosotros__text {
+    margin-right: 2em;
+    width: 80%; }
+  .contacto__formulario {
+    width: 450px; }
+  .contacto__mapa iframe {
+    width: 300px;
+    height: 250px; }
+  .footer__subcontenido {
+    display: flex;
+    padding-left: 2.5em; }
+  .footer__texto {
+    padding-right: 0.5em;
+    font-size: 0.8em;
+    font-weight: bolder; }
+  .footer__menuSecundario ul {
+    list-style: none;
+    padding-right: 1em;
+    padding-left: 1em; }
+    .footer__menuSecundario ul li a {
+      font-size: 0.8em;
+      font-weight: bolder; }
+  .footer__redesSociales {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    padding-left: 1em; }
+    .footer__redesSociales p {
+      font-size: 0.8em;
+      font-weight: bolder; }
+    .footer__redesSociales ul li img {
+      width: 30px;
+      height: 30px; } }
+
+@media only screen and (min-width: 350px) and (max-width: 479px) {
+  .header__logo img {
+    width: 80px;
+    height: 80px; }
+  .header__nav ul {
+    word-spacing: 0.2em;
+    z-index: 1; }
+    .header__nav ul li a {
+      font-size: 0.8em; }
+      .header__nav ul li a ul li {
+        z-index: 0;
+        padding: 0.1em; }
+  .homepage__hero h1 {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1em; }
+  .homepage__servicios img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: -5px; }
+  .homepage__servicios h2 {
+    font-size: 1em; }
+  .homepage__servicios p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1em;
+    font-weight: 600; }
+  .homepage__servicios button {
+    margin-top: 0.2em; }
+    .homepage__servicios button a {
+      font-size: 0.7em; }
+  .homepage__serviciosTexto {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding-left: 1em; }
+  .homepage__card1, .homepage__card2 {
+    display: flex;
+    flex-direction: column; }
+  .servicios__finanzasPersonales h2, .servicios__desarrolloPersonal h2 {
+    font-size: 1.2em;
+    margin-bottom: 0.3em; }
+  .servicios__finanzasPersonales img, .servicios__desarrolloPersonal img {
+    width: 100%;
+    height: 200px; }
+  .servicios__finanzasPersonales p, .servicios__desarrolloPersonal p {
+    text-align: left;
+    font-size: 1em;
+    font-weight: 500; }
+  .nosotros__main {
+    padding-bottom: 0.5em; }
+    .nosotros__main h2 {
+      font-size: 1.4em; }
+    .nosotros__main p {
+      font-size: 1em;
+      text-align: left;
+      padding-bottom: 0.5em; }
+    .nosotros__main img {
+      padding-right: 0.3em;
+      width: 150px;
+      height: 125px; }
+  .nosotros__text {
+    margin-right: 0.5em;
+    width: 80%; }
+  .contacto__info {
+    display: flex;
+    flex-direction: column; }
+  .contacto__subInfo {
+    margin-right: 0.5em; }
+    .contacto__subInfo h3 {
+      font-family: "Poppins", sans-serif;
+      font-size: 1.1em;
+      line-height: 1.3em; }
+    .contacto__subInfo p {
+      font-family: "Poppins", sans-serif;
+      font-size: 1.1em;
+      text-align: left;
+      margin-bottom: 0.5em;
+      text-align: left; }
+  .contacto__mapa iframe {
+    width: 90%;
+    height: 225px; }
+  .contacto__formulario {
+    width: 100%; }
+    .contacto__formulario textarea {
+      width: 100%; }
+  .footer__subcontenido {
+    display: flex;
+    padding-left: 1em; }
+  .footer__logo img {
+    width: 50px;
+    height: 50px; }
+  .footer__texto {
+    padding-right: 0.2em;
+    font-size: 0.8em;
+    font-weight: bolder; }
+  .footer__menuSecundario ul {
+    list-style: none;
+    padding-right: 0.2em;
+    padding-left: 0.3em; }
+    .footer__menuSecundario ul li a {
+      font-size: 0.7em;
+      font-weight: bolder; }
+  .footer__redesSociales {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    padding-left: 0.5em; }
+    .footer__redesSociales p {
+      font-size: 0.8em;
+      font-weight: bolder; }
+    .footer__redesSociales ul li img {
+      width: 25px;
+      height: 25px; } }

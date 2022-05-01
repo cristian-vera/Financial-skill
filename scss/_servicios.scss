@@ -1,0 +1,65 @@
+.servicios {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #04e0f0;
+}
+
+.servicios__main {
+    background-color: #f5f5dc;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1.5em;
+}
+
+.servicios__finanzasPersonales {
+    margin-bottom: 0.5em;
+    h2 {
+        font-family: "Poppins", sans-serif;
+        font-size: 1.7em;
+        letter-spacing: 0.2em;
+        text-decoration: underline;
+    }
+    img {
+        width: 400px;
+        height: 200px;
+    }
+    p {
+        font-family: "Poppins", sans-serif;
+        font-size: 1.3em;
+        text-align: justify;
+    }
+    h3 {
+        margin-top: 0.3em;
+        font-family: "Poppins", sans-serif;
+        font-size: 1.3em;
+        line-height: 1.7em;
+    }
+    ul {
+        li {
+            list-style: none;
+        }
+    }
+}
+
+.servicios__desarrolloPersonal {
+    h2 {
+        font-family: "Poppins", sans-serif;
+        font-size: 1.7em;
+        letter-spacing: 0.2em;
+        text-decoration: underline;
+    }
+    img {
+        width: 400px;
+        height: 200px;
+    }
+    p {
+        font-family: "Poppins", sans-serif;
+        font-size: 1.3em;
+        text-align: justify;
+        margin-top: 0.4em;
+        margin-bottom: 0.4em;
+    }
+}

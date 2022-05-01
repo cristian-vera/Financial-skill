@@ -1,0 +1,70 @@
+.contacto__main {
+    background-color: #04e0fe;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1.5em;
+    h2 {
+        font-family: "Poppins", sans-serif;
+        font-size: 1.7em;
+        letter-spacing: 0.2em;
+        text-decoration: underline;
+    }
+}
+
+.contacto__info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "contacto__subInfo contacto__mapa";
+}
+
+.contacto__subInfo {
+    margin-right: 0.5em;
+    h3 {
+        font-family: "Poppins", sans-serif;
+        font-size: 1.4em;
+        line-height: 1.7em;
+    }
+    p {
+        font-family: "Poppins", sans-serif;
+        font-size: 1.4em;
+        text-align: justify;
+        margin-bottom: 0.5em;
+        text-align: left;
+    }
+}
+
+.contacto__formulario {
+    background-color: #000000;
+    font-family: "Poppins";
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-top: 1em;
+    width: 500px;
+    fieldset {
+        border-style: none;
+        legend {
+            color:#f0f8ff;
+            font-weight: bolder;
+            letter-spacing: 0.1em;
+        }
+        div {
+            margin-bottom: 0.8em;
+        }
+        button {
+            width: 100px;
+            font-weight: bolder;
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
+            margin-right: 0.3em;
+        }
+    }
+}
+
+.contacto__mapa {
+    h3 {
+        font-family: "Poppins", sans-serif;
+        font-size: 1.4em;
+        line-height: 1.7em;
+    }
+}
